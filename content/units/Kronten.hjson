@@ -6,7 +6,7 @@ health: 850
 range: 20
 weapon: { 
   type: Weapon
-  name: -
+  name: Kronten-weapon
 
   rotate: false
   shootCone: 10

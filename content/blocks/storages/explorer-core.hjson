@@ -1,0 +1,20 @@
+Type: CoreBlock
+health: 12000
+itemCapacity: 1000
+size: 2
+unitType: beta
+unitCapModifier: 4
+thrusterLength: 15
+requirements: [
+  copper/1000
+  lead/800
+  silicon/600
+]
+research: {
+  root: true
+  name: Entrow
+  requiresUnlock: false
+  planet: entrow
+}
+alwaysUnlocked: true
+category: effect

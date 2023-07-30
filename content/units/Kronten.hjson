@@ -1,13 +1,28 @@
 type: mech
-name:Kronten
-speed:3
-flying:false
-health:850
-range:20
-weapon:{ 
-  name:-
-  damage:60
-  reload:1.5
-  alternate:true
-  bullet:lightning
+name: Kronten
+speed: 3
+flying: false
+health: 850
+range: 20
+weapon: { 
+  type: Weapon
+  name: -
+
+  rotate: false
+  shootCone: 10
+  inaccuracy: 5
+  reload: 6
+  targetInterval: 1
+  targetSwitchInterval: 1
+  cooldownTime: 100
+  
+  bullet: {
+   type: LightingBulletType
+   width: 5
+   height: 7
+   
+   damage: 25
+   
+   speed: 2
+   lifetime: 30
 }

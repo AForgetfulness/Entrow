@@ -1,0 +1,44 @@
+mesh: {
+  type: NoiseMesh
+  planet: entrow
+  seed: 121
+  divisions: 5
+  color1: 23c8ff
+  color2: 0002ff
+  colorScale: 2.1
+  radius: 0.8
+  octaves: 3
+  persistence: 1
+  scale: 1
+  mag: 1.5
+}
+sectorSize: 1.5
+generator: {
+
+}
+orbitSpacing: 12
+orbitRadius: 60
+raradius: 0.8
+minZoom: 1
+maxZoom: 4
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+accessible: true
+updateLighting: true
+sectorSeed: 0
+bloom: false
+visible: true
+atmosphereColor: 525252
+iconColor: 363636
+hasAtmosphere: true
+allowSectorInvasion: false
+allowLaunchToNumbered: false
+allowWaveSimulation: true
+
+clearSectorOnLose: true
+allowLaunchSchematics: true
+allowWaves: true
+defaultCore: core-shard
+parent: sun
+alwaysUnlocked: true

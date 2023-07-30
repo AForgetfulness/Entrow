@@ -29,8 +29,8 @@ updateLighting: true
 sectorSeed: 0
 bloom: false
 visible: true
-atmosphereColor: 525252
-iconColor: 363636
+atmosphereColor: 23c8ff
+iconColor: 23c8ff
 hasAtmosphere: true
 allowSectorInvasion: false
 allowLaunchToNumbered: false
@@ -39,6 +39,6 @@ allowWaveSimulation: true
 clearSectorOnLose: true
 allowLaunchSchematics: true
 allowWaves: true
-defaultCore: core-shard
+defaultCore: explorer-core
 parent: sun
 alwaysUnlocked: true

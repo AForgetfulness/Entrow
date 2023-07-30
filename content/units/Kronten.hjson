@@ -1,6 +1,5 @@
-type:
+type: mech
 name:Kronten
-description:-
 speed:3
 flying:false
 health:850

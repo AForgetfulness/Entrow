@@ -25,4 +25,5 @@ weapon: {
    
    speed: 2
    lifetime: 30
+  }
 }

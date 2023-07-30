@@ -30,7 +30,8 @@ sectorSeed: 0
 bloom: false
 visible: true
 iconColor: c1bffb
-hasAtmosphere: false
+atmosphereColor: 23c8ff
+hasAtmosphere: true
 allowSectorInvasion: false
 allowLaunchToNumbered: false
 allowWaveSimulation: true

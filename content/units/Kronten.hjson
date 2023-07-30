@@ -6,8 +6,9 @@ flying:false
 health:850
 range:20
 weapon:{ 
-name:-
-damage:60
-reload:1.5
-alternate:true
-bullet:lightning
+  name:-
+  damage:60
+  reload:1.5
+  alternate:true
+  bullet:lightning
+}

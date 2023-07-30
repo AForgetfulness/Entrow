@@ -1,6 +1,6 @@
 type: mech
 name: Kronten
-speed: 3
+speed: 1.5
 flying: false
 health: 850
 range: 20
@@ -17,7 +17,7 @@ weapon: {
   cooldownTime: 100
   
   bullet: {
-   type: LightingBulletType
+   type: BasicBulletType
    width: 5
    height: 7
    

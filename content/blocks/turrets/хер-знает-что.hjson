@@ -1,0 +1,46 @@
+type: ItemTurret
+reload: 40
+shootCone: 20
+rotateSpeed: 15
+targetGround: true
+targetAir: false
+range: 140
+recoil: 1.3
+size: 1
+health: 400
+AmmoPerShot: 3
+shootSound: shootBig
+shootShake: 1
+inaccuracy: 10
+
+shoot: {
+    shots: 2
+    spread: 0
+    shotDelay: 3
+}
+
+ammoTypes: {
+    copper: {
+        damage: 20
+        speed: 10
+        height: 15
+        width: 10
+        lifetime: 17
+    }
+   graphite: {
+        damage: 28
+        speed: 12
+        height: 16
+        width: 11
+        lifetime: 17
+    }
+
+}
+requirements: [
+    copper/100
+    lead/50
+    graphite/25
+]
+category: turret
+research: explorer-core
+alwaysUnlocked: true
